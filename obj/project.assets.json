@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lina\\Desktop\\Registro\\Registro.csproj",
+      "projectUniqueName": "C:\\Users\\Lina\\Desktop\\Registro\\Diseño-Registro\\Registro.csproj",
       "projectName": "Registro",
-      "projectPath": "C:\\Users\\Lina\\Desktop\\Registro\\Registro.csproj",
+      "projectPath": "C:\\Users\\Lina\\Desktop\\Registro\\Diseño-Registro\\Registro.csproj",
       "packagesPath": "C:\\Users\\Lina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lina\\Desktop\\Registro\\obj\\",
+      "outputPath": "C:\\Users\\Lina\\Desktop\\Registro\\Diseño-Registro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lina\\AppData\\Roaming\\NuGet\\NuGet.Config"
