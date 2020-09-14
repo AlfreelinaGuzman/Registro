@@ -1,0 +1,93 @@
+﻿<Window x:Class="Registro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Registro"
+        mc:Ignorable="d"
+        Title="Registro" Height="450" Width="800">
+    <Grid>
+     <Label Content="EntradaID: " HorizontalAlignment="Left" Margin="30,89,0,0" VerticalAlignment="Top"/>
+     <TextBox Width="200" Height= "20" HorizontalAlignment="Left" Margin="140,89,0,0" VerticalAlignment="Top"/>
+     
+     <Label Content="Fecha: " HorizontalAlignment="Left" Margin="30,119,0,0" VerticalAlignment="Top"/>
+     <DatePicker Width="200" Height= "20" HorizontalAlignment="Left" Margin="140,119,0,0" VerticalAlignment="Top"/>
+
+     <Label Content="SuplidorID: " HorizontalAlignment="Left" Margin="30,149,0,0" VerticalAlignment="Top"/>
+     <ComboBox  Width="200" Height= "20" HorizontalAlignment="Left" Margin="140,149,0,0" VerticalAlignment="Top"/>
+
+     <Label Content="CacaoID: " HorizontalAlignment="Left" Margin="30,179,0,0" VerticalAlignment="Top"/>
+     <ComboBox  Width="200" Height= "20" HorizontalAlignment="Left" Margin="140,179,0,0" VerticalAlignment="Top"/>
+
+     <Label Content="Cantidad: " HorizontalAlignment="Left" Margin="30,209,0,0" VerticalAlignment="Top"/>
+     <TextBox Width="200" Height= "20" HorizontalAlignment="Left" Margin="140,209,0,0" VerticalAlignment="Top"/>
+
+     <Label Content="Costo: " HorizontalAlignment="Left" Margin="30,239,0,0" VerticalAlignment="Top"/>
+     <TextBox Width="200" Height= "20" HorizontalAlignment="Left" Margin="140,239,0,0" VerticalAlignment="Top"/>
+
+     <Label Content="Total: " HorizontalAlignment="Left" Margin="30,269,0,0" VerticalAlignment="Top"/>
+     <Label Content="0" HorizontalAlignment="Left" Margin="140,269,0,0" VerticalAlignment="Top"/>
+
+     <Label Content="Creado por:" HorizontalAlignment="Left" Margin="30,299,0,0" VerticalAlignment="Top"/>
+     <Label Content="Administracion" HorizontalAlignment="Left" Margin="140,299,0,0" VerticalAlignment="Top"/>
+
+     <Label Content="Fecha Creacion: " HorizontalAlignment="Left" Margin="350,239,0,0" VerticalAlignment="Top"/>
+     <Label Content="13/09/2020 " HorizontalAlignment="Left" Margin="350,269,0,0" VerticalAlignment="Top"/>
+
+     <Label Content="Fecha Modificacion: " HorizontalAlignment="Left" Margin="350,299,0,0" VerticalAlignment="Top"/>
+     <Label Content="13/09/2020 " HorizontalAlignment="Left" Margin="350,329,0,0" VerticalAlignment="Top"/>
+
+     <Label Content="Consultar Entradas " HorizontalAlignment="Left" Margin="348,149,0,0" VerticalAlignment="Top"/>
+
+<!--Boton Buscar-->
+     <Button  HorizontalAlignment="Left" Margin="360,89,0,0" VerticalAlignment="Top">
+        <Button.Content>
+             <DockPanel>
+                <Image Width="20" Height= "20" Source="/Buscar.png"/>
+                <TextBlock VerticalAlignment="Center" Text="Buscar "/>
+            </DockPanel>
+        </Button.Content>
+    </Button> 
+
+<!--Boton Consultar-->
+    <Button  HorizontalAlignment="Left" Margin="360,179,0,0" VerticalAlignment="Top">
+        <Button.Content>
+             <DockPanel>
+                <Image Width="20" Height= "20" Source="/Consultar.png"/>
+                <TextBlock VerticalAlignment="Center" Text=" Consultar "/>
+            </DockPanel>
+        </Button.Content>
+    </Button> 
+
+<!--Boton Nuevo-->
+     <Button  HorizontalAlignment="Left" Margin="30,360,0,0" VerticalAlignment="Top">
+        <Button.Content>
+             <DockPanel>
+                <Image Width="20" Height= "20" Source="/Nuevo.png"/>
+                <TextBlock VerticalAlignment="Center" Text=" Nuevo "/>
+            </DockPanel>
+        </Button.Content>
+    </Button> 
+
+<!--Boton Guardar-->
+    <Button  HorizontalAlignment="Left" Margin="170,360,0,0" VerticalAlignment="Top">
+        <Button.Content>
+             <DockPanel>
+                <Image Width="20" Height= "20" Source="/Guardar.png"/>
+                <TextBlock VerticalAlignment="Center" Text=" Guardar "/>
+            </DockPanel>
+        </Button.Content>
+    </Button> 
+
+ <!--Boton Eliminar-->
+    <Button  HorizontalAlignment="Left" Margin="320,360,0,0" VerticalAlignment="Top">
+        <Button.Content>
+             <DockPanel>
+                <Image Width="20" Height= "20" Source="/Eliminar.png"/>
+                <TextBlock VerticalAlignment="Center" Text=" Eliminar "/>
+            </DockPanel>
+        </Button.Content>
+    </Button> 
+
+    </Grid>
+</Window>
